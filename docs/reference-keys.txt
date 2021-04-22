@@ -79,4 +79,6 @@ sec:ptop
 sec:rpers
 sec:spawnerstrap
 recruit-per-spawners
-references-1
+references
+sec:example-setup
+sec:scaleageing
