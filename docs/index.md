@@ -37,6 +37,6 @@ The contents of this document are the result of countless hours and many discuss
 
 Please reference the full breadth of this work using the following citation:
 
-Kinzer, Ryan, N., Clark Watry, Tyler T. Stright. 2021. Nez Perce Tribe Standardized Calculations for Snake River Basin Chinook Salmon and Steelhead High Level Indicators and Metrics. https://ryankinzer.github.io/NPT_Standardized_Methods/.
+Kinzer, Ryan, N., Clark B. Watry, Tyler T. Stright. 2021. *Standardized Calculations for Snake River Basin Chinook Salmon and Steelhead High Level Indicators and Metrics*. Nez Perce Tribe. https://ryankinzer.github.io/NPT_Standardized_Methods/.
 
 
