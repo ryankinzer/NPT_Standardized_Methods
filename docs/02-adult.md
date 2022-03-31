@@ -57,7 +57,7 @@ The proportion of available spawners dying before egg deposition and fertilizati
 (\#eq:prespawn)
 \end{equation}
 
-where $n_p$ is the number of female carcasses with $\ge 25 \%$ egg retention, $n_{f,p}$ is the total number of female carcasses with a prespawn egg retention determination, and $n_s$ is the total number of carcasses sexed. The variance of $\hat{p}$ is approximated using the delta method because the estimator is the ratio of two random variables ($n_{f,p}$ and $n_p$) [@casella2002statistical]. Using the delta method the approximate variance estimator for female prespawn mortality becomes
+where $n_p$ is the number of female carcasses with $\ge 25 \%$ egg retention, $n_{f,p}$ is the total number of female carcasses with a prespawn egg retention determination, and $n_s$ is the total number of carcasses with a sex determination. The variance of $\hat{p}$ is approximated using the delta method because the estimator is the ratio of two random variables ($n_{f,p}$ and $n_p$) [@casella2002statistical]. Using the delta method the approximate variance estimator for female prespawn mortality becomes
 
 \begin{equation}
 Var(\hat{p}) = \bigg(\frac{\hat{p}(1-\hat{p})}{n_{f,p}}\bigg) + \bigg(\frac{n_p^2 n_s\hat{f}(1-\hat{f})}{n_{f,p}^4}\bigg).
