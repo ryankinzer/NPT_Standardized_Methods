@@ -310,7 +310,7 @@ Total spawner abundance is estimated by summing across all $l$ strata from upstr
 The variance of total spawner abundance is estimated following;	
 	
 \begin{align}
-		Var(\hat{S}_T) &= Var(\hat{p})(Var(\hat{N}_U) + Var(\hat{N}_D)) + \hat{p}^2(Var(\hat{N}_U) \nonumber \\
+		Var(\hat{S}_T) &= Var(\hat{p})(Var(\hat{N}_U) + Var(\hat{N}_D)) + (1-\hat{p})^2(Var(\hat{N}_U) \nonumber \\
 					&+ Var(\hat{N}_D)) + Var(\hat{p})(\hat{N}_U + \hat{N}_D)^2.
 					(\#eq:var-TSA)
 \end{align}
@@ -326,7 +326,7 @@ Two methods exist to estimate spawner abundance excluding jacks or one ocean adu
 The variance of spawners excluding jacks is given through common variance properties [@casella2002statistical] as
 
 \begin{equation}
-			Var(\hat{S}_{T,EJ}) = Var(\hat{S}_T)Var(\hat{A}_3)) + \hat{A}_3^2Var(\hat{S}_T) + \hat{S}_T^2Var(\hat{A}_3). (\#eq:Vspawnej)
+			Var(\hat{S}_{T,EJ}) = Var(\hat{S}_T)Var(\hat{A}_3)) + (1-\hat{A}_3)^2Var(\hat{S}_T) + \hat{S}_T^2Var(\hat{A}_3). (\#eq:Vspawnej)
 \end{equation}
 
 The second method follows the point and variance estimates for total spawner abundance ($\hat{S}$), but excludes the jack-stratified upstream and downstream abundance estimates.
@@ -348,7 +348,7 @@ Natural origin spawner abundance is estimated as the product of the natural orig
 The estimated variance of natural origin spawner abundance follows a similar pattern as the variance of total spawners excluding jacks (\@ref(eq:Vspawnej)). 
 
 \begin{equation}
-			Var(\hat{S}_{T,N}) = Var(\hat{S}_T)Var(\hat{pHOS})) + \hat{pHOS}^2Var(\hat{S}_T) + \hat{S}_T^2Var(\hat{pHOS}). (\#eq:Vnosa)
+			Var(\hat{S}_{T,N}) = Var(\hat{S}_T)Var(\hat{pHOS})) + (1-\hat{pHOS})^2Var(\hat{S}_T) + \hat{S}_T^2Var(\hat{pHOS}). (\#eq:Vnosa)
 \end{equation}
 
 #### Natural-Origin Spawner Excluding Jacks
