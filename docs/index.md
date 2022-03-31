@@ -5,7 +5,7 @@ title:  |
   Standardized Calculations for Snake River Basin Chinook Salmon and Steelhead High Level Indicators and Metrics
 author:
   - Ryan N. Kinzer, Clark B. Watry, and Tyler T. Stright
-date: '2021-05-06'
+date: "2022-03-31"
 output:
   pdf_document2: default
   word_document2: default
